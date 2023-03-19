@@ -9,7 +9,7 @@ This library improves on an existing library called reverse_geocode developed by
 Supports Python 2 and 3. You can also load a custom data source. Fore more help, see https://github.com/thampiman/reverse-geocoder.
 
 Example usage:
-    >>> import reverse_geocoder as rg
+    >>> import reverse_geocoder_whl as rg
     >>> coordinates = (51.5214588,-0.1729636),(9.936033, 76.259952),(37.38605,-122.08385)
     >>> rg.search(coordinates)
     [{'name': 'Bayswater', 

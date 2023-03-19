@@ -17,7 +17,7 @@ else:
     csv.field_size_limit(sys.maxsize)
 import zipfile
 from scipy.spatial import cKDTree as KDTree
-from reverse_geocoder import cKDTree_MP as KDTree_MP
+from reverse_geocoder_whl import cKDTree_MP as KDTree_MP
 import numpy as np
 
 GN_URL = 'http://download.geonames.org/export/dump/'
