@@ -4,3 +4,5 @@ setup.py
 ./reverse_geocoder_whl/__init__.py
 ./reverse_geocoder_whl/cKDTree_MP.py
 ./reverse_geocoder_whl/rg_cities1000.csv
+recursive-include reverse_geocoder_whl *
+recursive-include c++ *
