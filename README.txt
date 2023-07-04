@@ -30,3 +30,10 @@ Example usage:
       'lon': '-122.08385', 
       'admin1': 'California', 
       'admin2': 'Santa Clara County'}]
+
+
+Changelog
+---------
+
+[1.5.3] Limit `scipy` to `>=0.17.1,<1.11` (previously `>=0.17.1`) due to a breaking change in SciPy 1.11.
+[1.5.2] Re-release to original project with Wheels.
