@@ -6,7 +6,7 @@ authors = [
 ]
 classifiers = [
 ]
-dependencies = ["numpy>=1.11.0", "scipy>=0.17.1"]
+dependencies = ["numpy>=1.11.0", "scipy>=0.17.1,<1.11"]
 description = "Fast, offline reverse geocoder"
 #license = "LGPL"
 readme = {file = "README.txt", content-type = "text/markdown"}
