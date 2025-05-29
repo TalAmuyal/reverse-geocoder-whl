@@ -34,6 +34,6 @@ Example usage:
 
 Changelog
 ---------
-
+[1.6.0] Added support for ARM.
 [1.5.3] Limit `scipy` to `>=0.17.1,<1.11` (previously `>=0.17.1`) due to a breaking change in SciPy 1.11.
 [1.5.2] Re-release to original project with Wheels.
